@@ -21,14 +21,17 @@ class CarsController extends Controller
         $query = Car::query();
     
         if ($brand) {
-            $query->searchByBrand($brand);
+            return $query->searchByBrand($brand);
         }
     
         if ($model) {
-            $query->searchByModel($model);
+            return $query->searchByModel($model);
+        } 
+
+        else {
+            $cars = Car::paginate($perPage, ['*'], 'page', $page);
         }
-    
-        $cars = Car::paginate($perPage, ['*'], 'page', $page);
+
     
         return response()->json($cars);
     }

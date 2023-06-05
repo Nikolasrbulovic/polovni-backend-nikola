@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CarsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +17,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+});
+Route::group(['prefix' => 'cars'], function () {
+    Route::get('/', [CarsController::class, 'index']);
+    Route::post('/',[ CarsController::class, 'store']);
+    Route::get('/{id}', [CarsController::class, 'show']);
+    Route::patch('/{id}',[ CarsController::class, 'update']);
+    Route::delete('/{id}',[CarsController::class, 'destroy']);
 });

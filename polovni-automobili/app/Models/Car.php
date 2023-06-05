@@ -10,7 +10,7 @@ class Car extends Model
     use HasFactory;
     public function scopeSearchByBrand($query, $brand)
     {
-        return $query->where('brand', 'LIKE', "%$brand%");
+        return $query->where('brand', 'like', "%$brand%")->get();
     }
     
     public function scopeSearchByModel($query, $model)
