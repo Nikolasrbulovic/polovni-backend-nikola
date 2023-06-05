@@ -40,6 +40,188 @@ class CarsTableSeeder extends Seeder
                 'is_automatic' => true,
                 'engine' => 'Petrol',
                 'number_of_doors' => 4
+            ],[
+                'brand' => 'Toyota',
+                'model' => 'Corolla',
+                'year' => 2020,
+                'max_speed' => 200,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],[
+                'brand' => 'Toyota',
+                'model' => 'Corolla',
+                'year' => 2020,
+                'max_speed' => 200,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],[
+                'brand' => 'Toyota',
+                'model' => 'Corolla',
+                'year' => 2020,
+                'max_speed' => 200,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],[
+                'brand' => 'Toyota',
+                'model' => 'Corolla',
+                'year' => 2020,
+                'max_speed' => 200,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],[
+                'brand' => 'Toyota',
+                'model' => 'Corolla',
+                'year' => 2020,
+                'max_speed' => 200,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],[
+                'brand' => 'Toyota',
+                'model' => 'Corolla',
+                'year' => 2020,
+                'max_speed' => 200,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],[
+                'brand' => 'Toyota',
+                'model' => 'Corolla',
+                'year' => 2020,
+                'max_speed' => 200,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
+            ],
+            [
+                'brand' => 'Honda',
+                'model' => 'Civic',
+                'year' => 2019,
+                'max_speed' => 190,
+                'is_automatic' => true,
+                'engine' => 'Petrol',
+                'number_of_doors' => 4
             ]
         ];
         foreach ($cars as $car) {

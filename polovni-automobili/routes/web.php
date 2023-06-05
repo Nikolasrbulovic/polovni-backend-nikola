@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CarsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+Route::group(['prefix' => 'cars'], function () {
+    Route::get('/', [CarsController::class, 'index']);
+    Route::post('/',[ CarsController::class, 'store']);
+    Route::get('/{id}', [CarsController::class, 'show']);
+    Route::patch('/{id}',[ CarsController::class, 'update']);
+    Route::delete('/{id}',[CarsController::class, 'destroy']);
 });
